@@ -13,7 +13,13 @@ export default defineConfig({
       { text: '参与贡献', link: '/guide/contributing' }
     ],
     sidebar: [
-      { text: '分享内容', items: [{ text: '分享目录', link: '/shares/' }] },
+      {
+        text: '分享内容',
+        items: [
+          { text: '分享目录', link: '/shares/' },
+          { text: '很酷，不搞编译器', link: '/shares/too_cool_to_do_compilers' }
+        ]
+      },
       { text: '参与项目', items: [{ text: '参与贡献', link: '/guide/contributing' }] }
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/io-club/share-2026' }],

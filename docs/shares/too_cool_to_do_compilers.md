@@ -1,3 +1,7 @@
+<script setup>
+import slidesUrl from './too_cool_to_do_compilers.pdf?url'
+</script>
+
 # 很酷，不搞编译器
 
 ## 开篇
@@ -123,8 +127,11 @@ Lambda 演算和图灵机所体现的不同计算思想，也能够帮助我们�
 ## PPT
 
 <iframe
-  src="./too_cool_to_do_compilers.pdf"
+  :src="slidesUrl"
+  title="很酷，不搞编译器 · PPT"
   width="100%"
   height="600"
   style="border: none;"
 ></iframe>
+
+<p><a :href="slidesUrl" target="_blank" rel="noopener">在新窗口打开或下载 PPT（PDF）</a></p>

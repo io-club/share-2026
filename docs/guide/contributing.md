@@ -15,7 +15,7 @@ npm run docs:dev
 
 1. 在 `docs/shares/` 中新建 Markdown 文件，例如 `my-topic.md`。
 2. 在分享目录 `docs/shares/index.md` 中添加链接，例如 `[我的分享](./my-topic.md)`。
-3. 如需添加侧边栏入口，修改 `docs/.vitepress/config.mts`。
+3. 在 `docs/.vitepress/config.mts` 的侧边栏中同步添加文章入口。
 4. 运行 `npm run docs:build`，检查是否存在构建错误或无效链接。
 5. 提交 Pull Request，合并到 `main` 后由 GitHub Actions 自动构建。
 
