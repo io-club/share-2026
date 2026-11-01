@@ -4,6 +4,8 @@
 
 [酷到不屑于搞编译器（学编译器学的）](./too_cool_to_do_compilers.md)
 
+[AI 时代，CS 本科生该何去何从？](./cs_in_ai_era.md)
+
 添加文章时，在 `docs/shares/` 下创建 Markdown 文件，并在本页添加链接。
 
 图片可以放在文章旁边，使用相对路径引用。

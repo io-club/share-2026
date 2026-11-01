@@ -17,7 +17,8 @@ export default defineConfig({
         text: '分享内容',
         items: [
           { text: '分享目录', link: '/shares/' },
-          { text: '很酷，不搞编译器', link: '/shares/too_cool_to_do_compilers' }
+          { text: '很酷，不搞编译器', link: '/shares/too_cool_to_do_compilers' },
+          { text: 'AI 时代，CS 本科生该何去何从？', link: '/shares/cs_in_ai_era' }
         ]
       },
       { text: '参与项目', items: [{ text: '参与贡献', link: '/guide/contributing' }] }
